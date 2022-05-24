@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    background: linear-gradient(
+         to right,
+        pink,
+        rgb(60, 186, 245)
+    ) ;
+    text-align: center;
+    font-weight: bolder;
+   
+
+}
+
+
+
+h1{
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+.sub_container{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.input_ctn{
+ font-size: 20px;
+ border: 1px solid pink;
+ border-radius: 10px;
+}
+
+.submit_ctn{
+    margin-top: 50px;
+    font-size: 25px;
+   
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid pink;
+    border-radius: 15px;
+}
+
+.box_ctn{
+    border: 3px solid white;
+    border-radius: 15px;
+    width:78%;
+    height:max-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:150px;
+    font-size: 20px;
+    justify-content: space-evenly;
+   margin: auto;
+
+   
+}
+
+.subbox{
+    padding: 10px 10px;
+}
+
+.submit{
+ margin-top: 50px;
+ padding: 10px 10px;
+ border-radius: 15px;
+}
